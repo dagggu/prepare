@@ -2,17 +2,25 @@
    und eine neue Zeichenfolge zurückgibt, die alle Elemente des Vektors in umgekehrter Reihenfolge enthält. */
 
 #include <vector>
+#include <string>
 #include <iostream>
 
 using namespace std;
 
-vector<char> series(vector<char> characters) {
-    vector<char> reversed = reverse(characters.begin(), characters.end());
+string strings(vector<string> v) {
+    string reversed;
+
+    for (auto it = v.rbegin(); it != v.rend(); ++it) {
+        reversed += *it;
+    }
 
     return reversed;
 }
 
 int main() {
-    vector<char> myChars = {'a', 'b', 'c'};
-    cout << series(myChars) << endl;
+    std::vector<std::string> v {"Hello", "World", "!"};
+    std::string res = strings(v);
+    std::cout << res << std::endl;
+
+    return 0;
 }
