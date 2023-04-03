@@ -1,6 +1,7 @@
 /* Schreiben Sie eine Klasse "Student" in C++, die Name, Alter und Durchschnittsnote 
-   eines Schülers enthält. Schreiben Sie dann eine Klasse "Klasse", die eine Sammlung von Schülern enthält. 
-   Implementieren Sie eine Methode, um den durchschnittlichen Notendurchschnitt der Klasse zu berechnen. */
+   eines Schülers enthält. Schreiben Sie dann eine Klasse "Klasse", die eine Sammlung 
+   von Schülern enthält. Implementieren Sie eine Methode, um den durchschnittlichen 
+   Notendurchschnitt der Klasse zu berechnen. */
 
 #include <string>
 #include <vector>
